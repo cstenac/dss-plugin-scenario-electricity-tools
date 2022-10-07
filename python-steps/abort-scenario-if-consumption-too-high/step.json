@@ -1,0 +1,25 @@
+{
+    "meta" : {
+        "label": "Abort scenario if current French electricity consumption is too high",
+        "description": "",
+        "icon": "icon-off"
+    },
+
+
+    "params": [
+        {
+            "name": "threshold",
+            "label": "Threshold in MW",
+            "type": "INT",
+            "description": "Max consumption",
+            "defaultValue" : 50000,
+            "mandatory": true
+        },        
+               {
+            "name": "rte_credentials",
+            "label": "RTE Credentials",
+            "type":"PRESET",
+            "parameterSetId": "rte-login"
+        }
+    ]
+}

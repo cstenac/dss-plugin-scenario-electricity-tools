@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "label": "RTE Portal Login",
+        "description": "",
+        "icon": "icon-cloud"
+    },
+    "defaultDefinableInline": true,
+    "defaultDefinableAtProjectLevel": true,
+    "pluginParams": [
+    ],
+    "params": [
+        {
+            "name": "rte_credentials",
+            "label": "RTE credentials",
+            "type": "CREDENTIAL_REQUEST",
+            "credentialRequestSettings": {
+                "type": "BASIC"
+            }
+        }
+    ]
+}
